@@ -15,4 +15,4 @@ Blablabla
 #### Pros and cons?
 Blablabla
 
-{% include disqus.html %}
+
