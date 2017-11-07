@@ -5,6 +5,7 @@
   // border-top: 5px solid; // $grey-color-dark;
   // border-bottom: 1px solid; // $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: black;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -107,6 +108,7 @@
  */
 .site-footer {
   // border-top: 1px solid $grey-color-light;
+  background-color: black;
   padding: $spacing-unit 0;
 }
 
@@ -170,8 +172,6 @@
   }
 }
 
-
-
 /**
  * Page content
  */
@@ -193,7 +193,8 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  font-family: $second-font-family;
+  font-size: $second-font-size;
   color: $grey-color;
 }
 

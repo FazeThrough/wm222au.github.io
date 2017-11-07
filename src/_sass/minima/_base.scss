@@ -1,3 +1,15 @@
+@mixin conBackground($path, $pos: 0 0, $repeat: no-repeat) {
+  background: {
+    image: url($path);
+    position: $pos;
+    repeat: $repeat;
+  }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /**
  * Reset some basic elements
  */
@@ -16,7 +28,8 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
+  // background-color: $background-color;
+  @include conBackground('./img/bg_placeholder.jpg');
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -24,8 +37,6 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -85,7 +96,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h4, h5, h6 {
+  font-family: $second-font-family;
+  font-weight: $second-font-weight;
+}
 
+p {
+  font-family: $second-font-family;
+  font-size: $second-font-size;
+  font-weight: $second-font-weight;
+  line-height: $second-line-height;
+}
 
 /**
  * Links
@@ -100,15 +121,11 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   .social-media-list &:hover {
     text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -207,10 +224,6 @@ pre {
 .social-media-list {
   .icon {
     padding-right: 5px;
-  }
-
-  a span {
-    text-decoration: none !important;
   }
 
   li + li {

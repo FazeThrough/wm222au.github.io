@@ -5,16 +5,11 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+          <li><h3>Kontaktuppgifter</h3></li>
+          <li>E-postadress</li>
+          <li><a href="mailto:{{ site.email }}"><p>{{ site.email }}</p></a></li>
+          <li>Telefonnummer</li>
+          <li><a href="tel:{{ site.tel }}"><p>{{ site.tel }}</p></a></li>
         </ul>
       </div>
 
