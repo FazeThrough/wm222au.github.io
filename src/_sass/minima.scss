@@ -24,6 +24,9 @@ $grey-color:       orange !default; //#828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+$contentSection-width: 50%;
+$contentSection-small-width: 100%;
+
 // Width of the content area
 $content-width:    800px !default;
 

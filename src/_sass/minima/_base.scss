@@ -21,7 +21,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -36,6 +35,10 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+}
+
+html, body { 
+  height: 100%; 
 }
 
 /**
