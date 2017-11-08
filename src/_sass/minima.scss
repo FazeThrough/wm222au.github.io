@@ -14,13 +14,19 @@ $second-font-size:   13px !default;
 $second-font-weight: 100 !default;
 $second-line-height: 17px !default;
 
+$primary-color: #340040;
+$second-color: #F2055C;
+$third-color: #07F2F2;
+$fourth-color: #05F26C;
+$fifth-color: #EAF205;
+
 $spacing-unit:     30px !default;
 
 $text-color:       white !default; //#111 !default;
-$background-color: black !default; //#fdfdfd !default;
+$background-color: $primary-color !default; //#fdfdfd !default;
 $brand-color:      white !default; //#2a7ae2 !default;
 
-$grey-color:       orange !default; //#828282 !default;
+$grey-color:       $second-color !default; //#828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
