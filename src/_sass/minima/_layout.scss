@@ -112,10 +112,8 @@ span {
 
 //content section
 .contentSection {
-  position: relative;
   float: right;
-  width: $contentSection-width;
-  background: fade-out(black, 0.5);  
+  background: fade-out(black, 0.35);  
 }
 
 
@@ -123,10 +121,10 @@ span {
  * Site footer
  */
 .site-footer {
-  // border-top: 1px solid $grey-color-light;
   width: 100%;
   background-color: $background-color;
   padding: $spacing-unit 0;
+
   h3 {
     margin-bottom: 0px;
   }
@@ -200,6 +198,7 @@ span {
  */
 .page-content {
   padding: $spacing-unit 0;
+  flex: 1;
 }
 
 .page-heading {
@@ -212,13 +211,16 @@ span {
 
   > li {
     margin-bottom: $spacing-unit;
+    span {
+      color: $primary-color;
+    }
   }
 }
 
 .post-meta {
   font-family: $second-font-family;
   font-size: $second-font-size;
-  color: $grey-color;
+  color: $primary-color;
 }
 
 .post-link {
@@ -239,6 +241,8 @@ span {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  color: $primary-color;
+  text-decoration: underline;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -246,7 +250,25 @@ span {
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  h1, h4, h5, h6, p {
+    color: $primary-color;
+  }
+
+  h2, h3 {
+    color: $second-color;
+  }
+
+  a {
+    color: $second-color;
+    &:hover {
+      color: $fourth-color;
+    }
+  }
+}
+
+.post-content {
+  width: 100%;
+  margin-bottom: 200px;
 
   h2 {
     @include relative-font-size(2);

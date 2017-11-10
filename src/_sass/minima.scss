@@ -1,5 +1,6 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 // Define defaults for each variable.
 
@@ -9,7 +10,7 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$second-font-family: "Noto Sans", Arial, sans-serif !default;
+$second-font-family: "Roboto Slab", Arial, sans-serif !default;
 $second-font-size:   13px !default;
 $second-font-weight: 100 !default;
 $second-line-height: 17px !default;
@@ -30,8 +31,7 @@ $grey-color:       $second-color !default; //#828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$contentSection-width: 50%;
-$contentSection-small-width: 100%;
+$site-fade: 0.40;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -60,5 +60,6 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
+  "minima/home",
   "minima/syntax-highlighting"
 ;
