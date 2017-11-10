@@ -270,6 +270,12 @@ span {
   width: 100%;
   margin-bottom: 200px;
 
+  img {
+    @include media-query($on-palm) {
+      float: none !important;
+    }
+  }
+
   h2 {
     @include relative-font-size(2);
 
