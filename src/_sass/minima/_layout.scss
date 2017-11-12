@@ -142,6 +142,9 @@ span {
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  li, h3 {
+    color: $second-color !important;
+  }
 }
 
 .footer-col-wrapper {
