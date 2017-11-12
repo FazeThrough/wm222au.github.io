@@ -9,6 +9,8 @@ order: 1
 ---
 
 <img src="../assets/img/Wilmer_profile.svg" alt="William Myllenberg" style="width: 20%; float: right; margin-left: 25px;"/>
-### Tjenis! Whats up?
+### Hi, nice to meet you! Whats up?
 <br>
-Mitt namn är William Myllenberg. Jag är 21 år gammal och studerar till Webbprogrammerare på Linnéuniversitet.
+My name is William Myllenberg. I am 21 years old and im currently studying to become a Web developer at Linnéuniversitet. I'm also working as a IT-consultant in southern Sweden.
+
+My interest are football, formula 1, video games, IT, design and development.

@@ -111,9 +111,29 @@ span {
 }
 
 //content section
-.contentSection {
-  float: right;
-  background: fade-out(black, 0.35);  
+.skills-section {
+  float: left;
+  clear: none;
+
+  div {
+    display: inline-block;
+    width: 45%;
+    background: fade-out(black, 0.35);
+    padding: 2%;
+    &:nth-child(even) {
+      margin-left: 1.1%;
+    }
+    p {
+      color: white;
+    }
+    @include media-query($on-laptop) {
+      margin-top: 1.1%;
+      width: 96%;
+      &:nth-child(even) {
+        margin-left: 0%;
+      }
+    }
+  }
 }
 
 
