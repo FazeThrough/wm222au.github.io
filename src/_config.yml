@@ -16,8 +16,8 @@
 title: Will Myllenberg
 email: william@myllenberg.com
 tel: '+46730293123'
-description: >- # this means to ignore newlines until "baseurl:"
-  Hej på dig! Det här är min personliga hemsida. Här är det planerat att jag ska visa upp mina projekt, kunskaper och tankar. Temat är ett modifierat minina.
+description: >- # this means to ignore newlines until "baseurl:" - Hej på dig! Det här är min personliga hemsida. Här är det planerat att jag ska visa upp mina projekt, kunskaper och tankar. Temat är ett modifierat minima.
+  Hi there! This is my personal website. This is a place for me to showcase my projects, knowledge and thoughts. The theme is a modified minima.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: William M

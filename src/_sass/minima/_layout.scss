@@ -120,16 +120,20 @@ span {
     width: 45%;
     background: fade-out(black, 0.35);
     padding: 2%;
-    &:nth-child(even) {
+    margin-top: 1.7%;
+    border-radius: 10px;
+    &:nth-child(3n+2) {
       margin-left: 1.1%;
+    }
+    &:nth-child(3n+3) {
+      width: 96%;
     }
     p {
       color: white;
     }
     @include media-query($on-laptop) {
-      margin-top: 1.1%;
       width: 96%;
-      &:nth-child(even) {
+      &:nth-child(3n+2) {
         margin-left: 0%;
       }
     }
