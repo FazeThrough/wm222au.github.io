@@ -1,23 +1,23 @@
 //content section
+
 .skills-section {
   float: left;
   clear: none;
-
-  div {
+  & > :nth-child(3n+2) {
+    margin-left: 1.1%;
+  }
+  & > :nth-child(3n+3) {
+    width: 96% !important;
+  }
+  .field-div {
     display: inline-block;
     overflow: hidden;
-    height: 185px;
+    min-height: 185px;
     width: 45%;
     background: fade-out(black, 0.35);
     padding: 2%;
     margin-top: 1.7%;
     border-radius: 10px;
-    &:nth-child(3n+2) {
-      margin-left: 1.1%;
-    }
-    &:nth-child(3n+3) {
-      width: 96%;
-    }
     p {
       color: white;
     }
@@ -32,25 +32,35 @@
     }
     ul {
       margin-left: 15px;
-    }
-    li {
-      list-style-type: none;
-      font-size: $second-font-size;
-      color: white;
-      &:before {
-        content: "> ";
+      li {
+        list-style-type: none;
+        font-size: $second-font-size;
+        color: white;
+        &:before {
+          content: "> ";
+        }
       }
+    }
+    div {
+      background-color: white;
+      display: inline-block;
+      overflow: hidden;
+      min-height: 90px;
+      width: 45%;
+      margin-left: 0px;
     }
   }
 }
 
 #download {
-  padding: 0px;
-  display: block;
-  height: 65px;
+  clear: none;
+  display: inline-block;
+  overflow: hidden;
+  min-height: 65px;
   width: 100%;
+  background: fade-out(black, 0.35);
+  margin-top: 1.7%; 
   border-radius: 10px;
-  text-align: center;
   &:hover {
     background-color: $primary-color;
   }
@@ -66,3 +76,4 @@
     }
   }
 }
+

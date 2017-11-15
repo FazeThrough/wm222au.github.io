@@ -8,7 +8,7 @@ order: 2
 
 <div class="skills-section">
 
-<div markdown="1">
+<div class="field-div" markdown="1">
 
 ### Programming & Markup
 * Javascript
@@ -20,7 +20,7 @@ order: 2
 * CSS
 </div>
 
-<div markdown="1">
+<div class="field-div" markdown="1">
 
 ### Design
 * Adobe Photoshop
@@ -30,13 +30,29 @@ order: 2
 
 </div>
 
-<div markdown="1">
+<div class="field-div" markdown="1">
 
 ### Timeline
 
+<div markdown="1">
+a
 </div>
 
 <div markdown="1">
+b
+</div>
+
+<div markdown="1">
+c
+</div>
+
+<div markdown="1">
+d
+</div>
+
+</div>
+
+<div class="field-div" markdown="1">
 
 ### Languages
 * Swedish
@@ -44,7 +60,7 @@ order: 2
 
 </div>
 
-<div markdown="1">
+<div class="field-div" markdown="1">
 
 ### Tools
 * Git
@@ -57,10 +73,10 @@ order: 2
 
 </div>
 
+</div>
+
 <div id="download" markdown="1">
 
 [Download my entire Curriculum vitae](../assets/docs/Exempel.pdf).
-
-</div>
 
 </div>
