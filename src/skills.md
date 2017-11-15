@@ -10,57 +10,57 @@ order: 2
 
 <div markdown="1">
 
-### Programming
-Mina intresse är fotboll ... bla bla bla.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
+### Programming & Markup
+* Javascript
+* Node.js
+* C - Basics
+* C++ - Basics
+<p></p>
+* HTML
+* CSS
 </div>
 
 <div markdown="1">
+
 ### Design
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+* Adobe Photoshop
+* Adobe Illustrator
+* Adobe InDesign
+* Adobe Lightroom
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 </div>
 
 <div markdown="1">
+
 ### Timeline
-</div>
-
-<div markdown="1">
-
-### Programming
-Mina intresse är fotboll ... bla bla bla.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 </div>
 
 <div markdown="1">
-### Design
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Languages
+* Swedish
+* English
+
 </div>
 
 <div markdown="1">
-### Timeline
-</div>
+
+### Tools
+* Git
+* Jekyll
+* SASS
+* Visual Studio Code
+* Docker
+* Windows PowerShell
+* Bash
 
 </div>
 
+<div id="download" markdown="1">
 
+[Download my entire Curriculum vitae](../assets/docs/Exempel.pdf).
 
-[jekyll-organization]: https://github.com/jekyll
+</div>
 
-
-#### Download my entire [Curriculum vitae](../assets/docs/Exempel.pdf).
+</div>

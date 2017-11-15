@@ -110,37 +110,6 @@ span {
   font-family: $second-font-family;
 }
 
-//content section
-.skills-section {
-  float: left;
-  clear: none;
-
-  div {
-    display: inline-block;
-    width: 45%;
-    background: fade-out(black, 0.35);
-    padding: 2%;
-    margin-top: 1.7%;
-    border-radius: 10px;
-    &:nth-child(3n+2) {
-      margin-left: 1.1%;
-    }
-    &:nth-child(3n+3) {
-      width: 96%;
-    }
-    p {
-      color: white;
-    }
-    @include media-query($on-laptop) {
-      width: 96%;
-      &:nth-child(3n+2) {
-        margin-left: 0%;
-      }
-    }
-  }
-}
-
-
 /**
  * Site footer
  */
