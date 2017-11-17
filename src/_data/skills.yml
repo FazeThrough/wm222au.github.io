@@ -1,0 +1,34 @@
+- title: "## Programming & Markup" 
+  text: | 
+      * Javascript 
+      * Node.js 
+      * C - Basics 
+      * C++ - Basics
+      * HTML 
+      * CSS
+
+- title: "## Design"
+  text: |
+      * Adobe Photoshop 
+      * Adobe Illustrator 
+      * Adobe InDesign 
+      * Adobe Lightroom
+
+- title: "## Curriculum vitae"
+  text: |
+      [Download](../assets/docs/Exempel.pdf)
+
+- title: "## Languages"
+  text: |
+      * Swedish 
+      * English
+
+- title: "## Tools"
+  text: | 
+      * Git 
+      * Jekyll 
+      * SASS 
+      * Visual Studio Code 
+      * Docker 
+      * Windows PowerShell 
+      * Bash

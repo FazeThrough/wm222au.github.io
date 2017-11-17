@@ -1,0 +1,36 @@
+--- 
+layout: default 
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+<div class="skills-section">
+
+    {% for item in site.data.skills %}
+    <div class="field-div">
+        {{ item.title | markdownify }} 
+        {{ item.text | markdownify }}
+    </div>
+    {% endfor %}
+
+</div>
+
+<div class="timeline">
+    <h1>Timeline</h1>
+    {% assign rows = site.data.timeline.size | minus: 1 %}
+    {% for i in (0..rows) %}
+        <div class="time-{{ i }}">
+            {{ site.data.timeline[i].title | markdownify }} 
+            {{ site.data.timeline[i].text | markdownify }}
+        </div>
+    {% endfor %}
+</div>

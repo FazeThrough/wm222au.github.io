@@ -1,8 +1,34 @@
 //content section
 
+$time-posts: 5;
+$time-height: 100px;
+
+.post-content {
+  margin-bottom: 30px;
+}
+
+@mixin time-align () {
+  @for $i from 1 through $time-posts {
+    .time-#{$i} {
+      @if $i % 2 == 0 {
+        float:right;
+        margin-top: $time-height;
+      } @else {
+        float:left;
+        margin-top: $time-height;
+      }
+    }
+  }
+}
+
+@mixin box-radius ($rad) {
+  border-radius: $rad;
+}
+
 .skills-section {
-  float: left;
-  clear: none;
+  display:block;
+  position: relative;
+  width: 100%;
   & > :nth-child(3n+2) {
     margin-left: 1.1%;
   }
@@ -17,9 +43,29 @@
     background: fade-out(black, 0.35);
     padding: 2%;
     margin-top: 1.7%;
-    border-radius: 10px;
+    @include box-radius(5px);
+    h2 {
+      color: $second-color;
+    }
     p {
       color: white;
+      a {
+        padding: 21px;
+        display: block;
+        height: 30%;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 45px;
+        text-align: center;
+        font-size: $base-font-size * 1.5;
+        background-color: $fourth-color;
+        color: $primary-color;
+        @include box-radius (25px);
+        &:hover {
+          background-color: $fifth-color;
+          color: $primary-color;
+        }
+      }
     }
     @include media-query($on-laptop) {
       width: 96%;
@@ -27,7 +73,7 @@
         margin-left: 0%;
       }
     }
-    h3 {
+    h2 {
       margin-bottom: 4px;
     }
     ul {
@@ -41,39 +87,45 @@
         }
       }
     }
-    div {
-      background-color: white;
-      display: inline-block;
-      overflow: hidden;
-      min-height: 90px;
-      width: 45%;
-      margin-left: 0px;
-    }
   }
 }
 
-#download {
-  clear: none;
+.timeline {
   display: inline-block;
-  overflow: hidden;
-  min-height: 65px;
+  position: relative;
   width: 100%;
   background: fade-out(black, 0.35);
-  margin-top: 1.7%; 
-  border-radius: 10px;
-  &:hover {
-    background-color: $primary-color;
+  margin-top: 1.7%;
+  h1 {
+    padding-left: 15px;
+    color: $second-color;
   }
-  p {
-    font-family: $base-font-family;
-    font-size: $base-font-size * 1.2;
-    height: 100%;
-    display: block;
-    a {
-      padding: 21px;
-      display: block;
-      height: 100%;
+  div {
+    display: inline-block;
+    overflow: hidden;
+    height: $time-height;
+    width: 45%;
+    margin-left: 0px;
+    background: $fifth-color;
+    margin: 10px;
+    @include box-radius(10px);
+    padding: 7px;
+    p {
+      font-size: $base-font-size !important;
+      color: $primary-color !important;
+    }
+    h2 {
+      color: $second-color !important;
     }
   }
-}
+  @include media-query($on-laptop) {
+    div {
+      width: 97% !important;
+      margin-top: $time-height / 4 !important;
+      float: none !important;
+    }
+  }
 
+  @include time-align();
+  @include box-radius(5px);
+}
