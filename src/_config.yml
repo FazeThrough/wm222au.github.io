@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Will Myllenberg
-email: william@myllenberg.com
-tel: '+46730293123'
+email: wm222au@student.lnu.se
+tel: '+4613371337 - not telling ;)'
 description: >- # this means to ignore newlines until "baseurl:" - Hej på dig! Det här är min personliga hemsida. Här är det planerat att jag ska visa upp mina projekt, kunskaper och tankar. Temat är ett modifierat minima.
   Hi there! This is my personal website. This is a place for me to showcase my projects, knowledge and thoughts. The theme is a modified minima.
 baseurl: "" # the subpath of your site, e.g. /blog
