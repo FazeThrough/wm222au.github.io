@@ -96,6 +96,7 @@ $time-height: 100px;
   width: 100%;
   background: fade-out(black, 0.35);
   margin-top: 1.7%;
+  padding-bottom: 20px;
   h1 {
     padding-left: 15px;
     color: $second-color;
@@ -120,9 +121,14 @@ $time-height: 100px;
   }
   @include media-query($on-laptop) {
     div {
-      width: 97% !important;
+      min-width: 94%;
       margin-top: $time-height / 4 !important;
       float: none !important;
+    }
+  }
+  @include media-query($on-palm) {
+    div {
+      min-width: 90%;
     }
   }
 
