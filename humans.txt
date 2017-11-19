@@ -1,9 +1,0 @@
-Your title: William Myllenberg
-Site: william.myllenberg.com
-Twitter: KaptenValhall
-Location: Helsingborg, Sweden.
-
-Last update: 2017/11/10             
-Standards: HTML5, CSS3
-Components: Jekyll
-Software: Visual Studio Code, Google Chrome
